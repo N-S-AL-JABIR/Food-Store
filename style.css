@@ -1,0 +1,52 @@
+.searchBar {
+  width: 400px;
+  height: 40px;
+  box-shadow: 3px 3px 6px rgb(209, 215, 142);
+  border: 1px solid rgb(209, 215, 142);
+  padding-left: 10px;
+}
+.searchBtn {
+  width: 80px;
+  box-shadow: 3px 3px 6px rgb(209, 215, 142);
+  border: 1px solid rgb(209, 215, 142);
+  background-color: rgb(202, 221, 3);
+  color: rgb(91, 44, 17);
+}
+.product-container {
+  align-items: center;
+}
+.card-img {
+  border-radius: 10px;
+}
+.food-card {
+  width: 250px;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 4px 4px 8px gray;
+}
+.food-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+  cursor: pointer;
+}
+.card-img-details {
+  border-radius: 10px;
+  width: 100%;
+  box-shadow: 6px 6px 10px gray;
+}
+.foodDetails {
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.card-details{
+  box-shadow: 6px 6px 10px gray;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: rgb(184, 230, 230);
+}
